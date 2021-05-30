@@ -15,33 +15,21 @@
  */
 class Solution {
     
-    public static void vertical1(TreeNode root,int param,TreeMap<Integer,List<Integer>>hmap)
-    {
-        if(root==null)
-            return;
-        if(hmap.containsKey(param))
-            hmap.get(param).add(root.val);
-        else
-        {
-            List<Integer>arr=new ArrayList<Integer>();
-            arr.add(root.val);
-            hmap.put(param,arr);
-        }
-        vertical(root.left,param-1,hmap);
-        vertical(root.right,param+1,hmap);
-        
-        
-    }
     public static void vertical(TreeNode root,int param,TreeMap<Integer,List<Integer>>hmap2)
     {
-        Queue<TreeNode>q=new LinkedList<TreeNode>();
-        Queue<Integer>loc=new LinkedList<Integer>();
+        Queue<TreeNode>q=new LinkedList<TreeNode>(); //stored the TreeNode
+        Queue<Integer>loc=new LinkedList<Integer>(); //stored the loc of TreeNode
         q.add(root);
         loc.add(0);
+        
         while(!q.isEmpty())
         {
             int size=q.size();
+            
+            //created a local hashmap to keep track of nodes and its loc per level
             TreeMap<Integer,List<Integer>>hmap=new TreeMap<Integer,List<Integer>>();
+            
+            //processing level wise
             for(int i=0;i<size;i++)
             {
                 TreeNode curr=q.poll();
@@ -68,6 +56,8 @@ class Solution {
                     loc.add(curr_loc+1);
                 }
             }
+            
+            //Merging Local Map with Global Map
             for(Map.Entry<Integer,List<Integer>>entry:hmap.entrySet())
             {
                 if(hmap2.containsKey(entry.getKey()))
@@ -79,6 +69,7 @@ class Solution {
                     hmap2.put(entry.getKey(),entry.getValue());
                 }
             }
+            
         }
     }
     public List<List<Integer>> verticalTraversal(TreeNode root) {
