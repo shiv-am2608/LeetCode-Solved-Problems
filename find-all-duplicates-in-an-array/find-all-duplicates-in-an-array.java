@@ -6,8 +6,7 @@ class Solution {
             int temp=Math.abs(nums[i])-1;
             if(nums[temp]<0)
                 res.add(temp+1);
-            else
-                nums[temp]=-nums[temp];
+            nums[temp]=-nums[temp];
         }
         return res;
     }
