@@ -6,7 +6,7 @@ class Solution {
         int max=0;
         for(int i=0;i<nums.length;i++)
         {
-            if(hs.contains(nums[i]) && hs.contains(nums[i]-1))
+            if(hs.contains(nums[i]-1))
                 continue;
             int count=0;
             int sub=0;
