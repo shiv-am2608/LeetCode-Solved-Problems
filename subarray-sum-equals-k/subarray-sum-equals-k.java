@@ -9,10 +9,7 @@ class Solution {
             if(pre_sum==k)
                 count++;
             if(hs.containsKey(pre_sum-k))
-            {
                 count+=hs.get(pre_sum-k);
-               // hs.put(pre_sum-k,hs.get(pre_sum-k)+1);
-            }
             if(hs.containsKey(pre_sum))
                 hs.put(pre_sum,hs.get(pre_sum)+1);
             else
