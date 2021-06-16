@@ -28,8 +28,6 @@ class Solution {
                 {
                     if(DFS(visited,board,word,i,j,1))
                         return true;
-                    for(boolean[]x:visited )
-                    Arrays.fill(x,false);
                 }
         return false;
     }
