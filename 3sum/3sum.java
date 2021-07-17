@@ -31,6 +31,7 @@ class Solution {
             List<List<Integer>>temp=twoSum(nums,i+1,nums.length-1,-nums[i]);
             if(temp.size()>0)
             {
+                //for a number,multiples pairs can exist have sum equal to that value
                 for(List<Integer>x:temp)
                 {
                     x.add(0,nums[i]);
@@ -38,6 +39,9 @@ class Solution {
                 }
             }
         }
+        
+        //maintains unique set of triplets
+        //Eg. TC ->[0,0,0,0] -->[[0,0,0],[0,0,0]]
         Set<List<Integer>> s = new LinkedHashSet<List<Integer>>(res); 
         res.clear();
         for(List<Integer>t:s)
