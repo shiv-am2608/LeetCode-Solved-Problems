@@ -1,22 +1,19 @@
 class Solution {
-    public void reverse(int arr[],int i,int j)
+    public void rot(int nums[],int l,int r)
     {
-        while(i<j)
+        while(l<r)
         {
-            int temp=arr[i];
-            arr[i]=arr[j];
-            arr[j]=temp;
-            i++;
-            j--;
+            int temp=nums[l];
+            nums[l]=nums[r];
+            nums[r]=temp;
+            l++;
+            r--;
         }
     }
     public void rotate(int[] nums, int k) {
-        if(nums.length<=1)
-            return;
-        if(k>nums.length)
-            k=k%(nums.length);
-        reverse(nums,0,nums.length-1);
-        reverse(nums,0,k-1);
-        reverse(nums,k,nums.length-1);
+        k=k%nums.length;
+        rot(nums,0,nums.length-1);
+        rot(nums,0,k-1);
+        rot(nums,k,nums.length-1);
     }
 }
