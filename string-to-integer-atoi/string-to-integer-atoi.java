@@ -1,13 +1,17 @@
 class Solution {
-    boolean isNegative=false;
+    boolean isNegative=false;//stores whether the number is negative
+    
+    //flags isNegative and returns only the numeric part
     public String prepString(String s)
     {
-        s=s.trim();
+        s=s.trim();//removes all trailing spaces
         if(s.length()==0)
             return s;
         char first=s.charAt(0);
         int i=0;
         boolean flag=false;
+        
+        //check for symbols
         if(first=='+')
         {
             i++;
@@ -38,7 +42,6 @@ class Solution {
         while(j<target.length() && target.charAt(j)=='0')
             j++;
         target=target.substring(j,target.length());
-        //System.out.println(target+" "+isNegative);
         if(target.length()>10)
         {
             if(isNegative)
@@ -59,7 +62,6 @@ class Solution {
             else if(numUpto9Digits==Integer.MAX_VALUE/10)
             {
                 char lastDigit=target.charAt(target.length()-1);
-                //System.out.println(lastDigit);
                 if(isNegative && lastDigit>='8')
                     return Integer.MIN_VALUE;
                 if(!isNegative && lastDigit>='7')
