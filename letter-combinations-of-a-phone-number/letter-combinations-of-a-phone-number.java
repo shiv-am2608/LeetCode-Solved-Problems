@@ -1,19 +1,19 @@
 class Solution {
     public String letters(int n)
     {
-        if(n==2)
+        if(n=='2')
             return "abc";
-        if(n==3)
+        if(n=='3')
             return "def";
-        if(n==4)
+        if(n=='4')
             return "ghi";
-        if(n==5)
+        if(n=='5')
             return "jkl";
-        if(n==6)
+        if(n=='6')
             return "mno";
-        if(n==7)
+        if(n=='7')
             return "pqrs";
-        if(n==8)
+        if(n=='8')
             return "tuv";
         return "wxyz";
     }
@@ -24,7 +24,7 @@ class Solution {
             res.add(curr);
             return;
         }
-        int num=digits.charAt(0)-'0';
+        char num=digits.charAt(0);
         String list=letters(num);
         for(int i=0;i<list.length();i++)
         {
