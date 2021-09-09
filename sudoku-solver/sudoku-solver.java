@@ -1,63 +1,48 @@
 class Solution {
-    public boolean isSafe(int i,int j,char n,char[][] board)
+    public boolean isSafe(int i,int j,char curr,char board[][])
     {
-        int N = board.length;
-        for(int c=0;c<N;c++)
-        {
-            if(board[c][j] == n || board[i][c] == n)
+        int N=board.length;
+        for(int t=0;t<N;t++)
+            if(board[i][t]==curr || board[t][j]==curr)
                 return false;
-            
-        }
-        int s = (int)Math.sqrt(N);
-        int sr= i-i%s;
-        int sc = j - j%s;
-        for(int v=0;v<s;v++)
-        {
-            for(int b=0;b<s;b++)
-            {
-                if(board[sr+v][sc+b]==n)
+        int s=(int)Math.sqrt(N);
+        int rs=i-i%s;
+        int cs=j-j%s;
+        for(i=0;i<s;i++)
+            for(j=0;j<s;j++)
+                if(board[i+rs][j+cs]==curr)
                     return false;
-            }
-        }
         return true;
     }
-    public void solveSudoku(char[][] board) {
-         
-        boolean result = solve(board);
-    }
-    public boolean solve(char[][] board) {
-        int N = board.length;
-        int i=0;
-        int j=0;
+    public boolean solve(char board[][])
+    {
+        int N=board.length;
+        int i=0,j=0;
         for(i=0;i<N;i++)
         {
-            boolean flag = false;
             for(j=0;j<N;j++)
-            {
                 if(board[i][j]=='.')
-                {
-                   flag = true;
-                     break;
-                }
-            }
-            if(flag==true)
-            {
+                    break;
+            if(j<N)
                 break;
-            }
         }
         if(i==N && j==N)
             return true;
         for(int k=1;k<=N;k++)
         {
-            char n =(char)('0'+k);
-            if(isSafe(i,j,n,board))
+            char curr=(char)(k+'0');
+            if(isSafe(i,j,curr,board))
             {
-                board[i][j] = n;
+                board[i][j]=curr;
                 if(solve(board))
                     return true;
-                board[i][j]= '.';
+                board[i][j]='.';
             }
         }
         return false;
     }
+    public void solveSudoku(char[][] board) {
+        solve(board);
+    }
+    
 }
