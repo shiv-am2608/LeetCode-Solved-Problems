@@ -20,8 +20,6 @@ class Solution {
         if(is>ie || pre==preorder.length)
             return null;
         TreeNode root=new TreeNode(preorder[pre++]);
-        if(is==ie)
-            return root;
         int index=0;
         for(int i=is;i<=ie;i++)
             if(inorder[i]==preorder[pre-1])
