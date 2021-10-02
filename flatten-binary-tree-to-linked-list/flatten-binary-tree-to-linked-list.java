@@ -14,25 +14,35 @@
  * }
  */
 class Solution {
-    public void pre(TreeNode root,Stack<TreeNode>st)
+   
+    public TreeNode helper(TreeNode root)
     {
         if(root==null)
-            return;
+            return root;
+        
+        TreeNode left = helper(root.left);
+        // if(left==null)
+        //     return root;
+        TreeNode temp = null;
         if(root.right!=null)
-            st.push(root.right);
-        root.right=root.left;
-        root.left=null;
-        if(root.right!=null)
-            pre(root.right,st);
-        else if(!st.isEmpty())
         {
-            root.right=st.pop();
-            pre(root.right,st);
+            temp = root.right;
+              //return helper(temp);
         }
-
+        root.right = left;
+         TreeNode curr = root;
+        while(curr.right!=null)
+        {
+            curr = curr.right;
+        }
+        curr.right = temp;
+        root.left = null;
+        TreeNode right  = helper(root.right);
+        root.right = right;
+        return root;
+        
     }
     public void flatten(TreeNode root) {
-        Stack<TreeNode>st=new Stack<TreeNode>();
-        pre(root,st);
+        helper( root);
     }
 }
