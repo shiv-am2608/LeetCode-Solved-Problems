@@ -14,22 +14,22 @@
  * }
  */
 class Solution {
-    ArrayList<Integer> al = new ArrayList<Integer>();
-    public void InO(TreeNode root)
+    public boolean check(TreeNode root,long min,long max)
     {
         if(root==null)
-            return;
-         InO(root.left);
-        al.add(root.val);
-        InO(root.right);
+            return true;
+        if(root.val<max && root.val>min)
+        {
+            boolean left=true,right=true;
+            if(root.left!=null)
+                left=check(root.left,min,root.val);
+            if(root.right!=null)
+                right=check(root.right,root.val,max);
+            return left && right;
+        }
+        return false;
     }
     public boolean isValidBST(TreeNode root) {
-        InO(root);
-        for(int i=1;i<al.size();i++)
-        {
-            if(al.get(i)<=al.get(i-1))
-                return false;
-        }
-        return true;
+        return check(root,Long.MIN_VALUE,Long.MAX_VALUE);
     }
 }
