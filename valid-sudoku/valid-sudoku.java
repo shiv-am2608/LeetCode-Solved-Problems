@@ -1,4 +1,6 @@
 class Solution {
+    
+    //function to check if a row is valid
     public boolean rowCheck(char board[][],int i)
     {
         HashSet<Character>hs=new HashSet<Character>();
@@ -12,6 +14,8 @@ class Solution {
         }
         return true;
     }
+    
+    //function to check if a column is valid
     public boolean colCheck(char board[][],int j)
     {
         HashSet<Character>hs=new HashSet<Character>();
@@ -25,16 +29,16 @@ class Solution {
         }
         return true;
     }
+    
+    //function to check if a subgrid is valid
     public boolean gridCheck(char board[][],int i,int j)
     {
-        int rowStart=i-(i%3);
-        int colStart=j-(j%3);
         HashSet<Character>hs=new HashSet<Character>();
         for(int x=0;x<3;x++)
         {
             for(int y=0;y<3;y++)
             {
-                char temp=board[x+rowStart][y+colStart];
+                char temp=board[x+i][y+j];
                 if(temp=='.')
                     continue;
                 if(hs.contains(temp))
@@ -44,10 +48,24 @@ class Solution {
         }
         return true;
     }
+    
+    
     public boolean isValidSudoku(char[][] board) {
+        
+        //checking each row
         for(int i=0;i<9;i++)
-            for(int j=0;j<9;j++)
-                if(!(rowCheck(board,i) && colCheck(board,j) && gridCheck(board,i,j)))
+            if(!rowCheck(board,i))
+                return false;
+        
+        //checking each column
+        for(int j=0;j<9;j++)
+            if(!colCheck(board,j))
+                return false;
+        
+        ///checking each subgrid
+        for(int i=0;i<9;i=i+3)
+            for(int j=0;j<9;j=j+3)
+                if(!gridCheck(board,i,j))
                     return false;
         return true;
     }
