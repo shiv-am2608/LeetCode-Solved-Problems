@@ -19,9 +19,6 @@ class Solution {
                     arr[k++]=board[i][j];
             }
         }
-        // for(int i=1;i<=n*n;i++)
-        //     System.out.println(i+" -> "+arr[i]);
-        // //return 0;
         Queue<Integer>q=new LinkedList<Integer>();
         int count=1;
         q.add(1);
