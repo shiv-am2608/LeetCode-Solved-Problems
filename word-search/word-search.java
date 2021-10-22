@@ -1,34 +1,28 @@
 class Solution {
-    public boolean DFS(boolean visited[][],char board[][],String word,int i,int j,int k)
+    public boolean find(char board[][],int x,int y,String word,int k,boolean visited[][])
     {
-        if(i<0 || j<0 || i>=board.length || j>=board[0].length || visited[i][j])
-            return false;
         if(k==word.length())
             return true;
-        visited[i][j]=true;
-        boolean top=false,bottom=false,right=false,left=false;
-        if(i!=0 && word.charAt(k)==board[i-1][j])
-            top=DFS(visited,board,word,i-1,j,k+1);
-        if(i!=board.length-1 && word.charAt(k)==board[i+1][j])
-            bottom=DFS(visited,board,word,i+1,j,k+1);
-        if(j!=0 && word.charAt(k)==board[i][j-1])
-            left=DFS(visited,board,word,i,j-1,k+1);
-        if(j!=board[0].length-1 && word.charAt(k)==board[i][j+1])
-            right=DFS(visited,board,word,i,j+1,k+1);
-        visited[i][j]=false;
-        return top || bottom || right || left;
-        
-        
+        if(x<0 || y<0 || x>=board.length || y>=board[0].length || board[x][y]!=word.charAt(k) || visited[x][y])
+            return false;
+        visited[x][y]=true;
+        boolean bottom=find(board,x+1,y,word,k+1,visited);
+        boolean right=find(board,x,y+1,word,k+1,visited);
+        boolean top=find(board,x-1,y,word,k+1,visited);
+        boolean left=find(board,x,y-1,word,k+1,visited);
+        visited[x][y]=false;
+        return left || right || top || bottom;
     }
     public boolean exist(char[][] board, String word) {
-        boolean visited[][]=new boolean[board.length][board[0].length];
         for(int i=0;i<board.length;i++)
+        {
             for(int j=0;j<board[0].length;j++)
-                if(board[i][j]==word.charAt(0))
-                {
-                    if(DFS(visited,board,word,i,j,1))
-                        return true;
-                }
+            {
+                boolean visited[][]=new boolean[board.length][board[0].length];
+                if(find(board,i,j,word,0,visited))
+                    return true;
+            }
+        }
         return false;
     }
 }
