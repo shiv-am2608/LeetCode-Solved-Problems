@@ -28,13 +28,9 @@ class Solution {
         }
         String str="";
         for(int i=0;i<numRows;i++)
-        {
             for(int j=0;j<s.length();j++)
-            {
                 if(grid[i][j]!='$')
-                str=str+ grid[i][j];
-            }
-        }
+                    str+=grid[i][j];
         return str;
 
     }
