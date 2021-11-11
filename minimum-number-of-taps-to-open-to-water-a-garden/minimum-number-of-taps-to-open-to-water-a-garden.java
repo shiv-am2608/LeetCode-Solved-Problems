@@ -3,7 +3,7 @@ class Solution {
         
         //furthest distance from a point towards right
         int dist[]=new int[n+1];
-        boolean flag=false;
+        boolean flag=false;//to handle TCs in which no taps can reach last plot
         for(int i=0;i<=n;i++)
         {
             if(ranges[i]==0)//if range is 0 we ignore it
