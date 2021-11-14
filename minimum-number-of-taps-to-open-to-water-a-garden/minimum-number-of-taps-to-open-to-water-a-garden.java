@@ -3,19 +3,19 @@ class Solution {
         
         //furthest distance from a point towards right
         int dist[]=new int[n+1];
-        boolean flag=false;//to handle TCs in which no taps can reach last plot
+        //boolean flag=false;//to handle TCs in which no taps can reach last plot
         for(int i=0;i<=n;i++)
         {
             if(ranges[i]==0)//if range is 0 we ignore it
                 continue;      //*IMPORTANT* updates to i and may give ambiguity
             int left=Math.max(0,i-ranges[i]);
             int right=Math.min(n,i+ranges[i]);
-            if(right==n)
-                flag=true;
+            // if(right==n)
+            //     flag=true;
             dist[left]=Math.max(dist[left],right);
         }
-        if(!flag)
-            return -1;
+        // if(!flag)
+        //     return -1;
         int far=dist[0];//stores the farthest reachable distance with a tap
         int tap=1;//stores the tap count
         if(far==n)
@@ -23,7 +23,7 @@ class Solution {
         int next_tap=0;//stores the index of next tap
         
         
-        for(int i=0;i<n;i++)
+        for(int i=0;i<=n;i++)
         {
             if(i>far)//if we reach more than far it is unreacable
                 return -1;
