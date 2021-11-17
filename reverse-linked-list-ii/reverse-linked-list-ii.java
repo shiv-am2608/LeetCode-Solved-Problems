@@ -34,15 +34,11 @@ class Solution {
         {
             ListNode temp=reverse(head);
             head.next=r;
-            return temp;
-            
+            return temp;    
         }
         ListNode start=l.next;
         l.next=reverse(start);
         start.next=r;
-        return head;
-        
-        
-        
+        return head;  
     }
 }
