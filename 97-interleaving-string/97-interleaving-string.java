@@ -8,6 +8,8 @@ class Solution {
         boolean valid=false;
         if(i<s1.length() && s1.charAt(i)==s3.charAt(k))
             valid=dfs(s1,s2,s3,i+1,j,k+1,invalid);
+        
+        //if we get valid=true we dont want to override as we can get false again
         if(!valid && j<s2.length() && s2.charAt(j)==s3.charAt(k))
             valid=dfs(s1,s2,s3,i,j+1,k+1,invalid);
         if(!valid)
