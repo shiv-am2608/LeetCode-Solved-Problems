@@ -45,9 +45,8 @@ class Solution
         // Code here
         int n=grid.length;
         PriorityQueue<Pair>pq=new PriorityQueue<Pair>((t1,t2)->(t1.data-t2.data));
-          boolean visited[][]=new boolean[n][n];
-          pq.offer(new Pair(0,0,grid[0][0]));
-        visited[0][0]=true;
+        pq.offer(new Pair(0,0,grid[0][0]));
+        grid[0][0]=-1;
         int dir[][]={{-1,0},{1,0},{0,-1},{0,1}};
         while(!pq.isEmpty())
         {
@@ -61,10 +60,10 @@ class Solution
           {
             int nextx=currx+i[0];
             int nexty=curry+i[1];
-            if(nextx<0 || nexty<0 || nextx>=n || nexty>=n || visited[nextx][nexty])
+            if(nextx<0 || nexty<0 || nextx>=n || nexty>=n || grid[nextx][nexty]==-1)
             continue;
-            visited[nextx][nexty]=true;
             pq.offer(new Pair(nextx,nexty,data+grid[nextx][nexty]));
+            grid[nextx][nexty]=-1;
           }
         }
         return 0;
