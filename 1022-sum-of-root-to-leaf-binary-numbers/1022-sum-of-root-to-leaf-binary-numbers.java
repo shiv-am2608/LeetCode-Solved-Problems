@@ -18,11 +18,9 @@ class Solution {
     {
         if(root==null)
             return 0;
-        if(root.left==null && root.right==null)
-        {
-            return (sum*2)+root.val;
-        }
         int data=(sum*2)+root.val;
+        if(root.left==null && root.right==null)
+            return data;
         return findSum(root.left,data)+findSum(root.right,data);
     }
     public int sumRootToLeaf(TreeNode root) {
