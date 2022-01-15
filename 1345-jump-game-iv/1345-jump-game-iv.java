@@ -45,9 +45,6 @@ class Solution {
                         }
                 hmap.remove(arr[curr]);
             }
-            // for(int i:visited)
-            //     System.out.print(i+" ");
-            // System.out.println();
             dist++;
         }
         return -1;
