@@ -38,6 +38,7 @@ class Solution
     public String MaxNumber(long arr[], long n)
     {
         //code here.
+        //using String will give TLE
         StringBuilder s = new StringBuilder();
         Arrays.sort(arr);
         for(int i = 0; i < n; i++)
