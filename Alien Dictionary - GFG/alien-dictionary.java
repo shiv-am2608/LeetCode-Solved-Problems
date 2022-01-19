@@ -83,20 +83,42 @@ class GFG {
 
 class Solution
 {
+    String ans;
+    public void dfs(int start,ArrayList<ArrayList<Integer>>edges,boolean visited[])
+    {
+        visited[start]=true;
+        for(int i:edges.get(start))
+            if(!visited[i])
+                dfs(i,edges,visited);
+        ans=(char)(start+'a')+""+ans;
+    }
     public String findOrder(String [] dict, int N, int K)
     {
         // Write your code here
-        Set<Character> set = new HashSet<>();
-       for (String s : dict) {
-           for (char c: s.toCharArray()) {
-               set.add(c);
-           }
-       }
-       StringBuilder b = new StringBuilder();
-       for (char c : set) {
-           b.append(c);
-       }
-       return b.toString();
+        ArrayList<ArrayList<Integer>>edges=new ArrayList<ArrayList<Integer>>();
+        for(int i=0;i<K;i++)
+            edges.add(new ArrayList<Integer>());
+        for(int i=0;i<N-1;i++)
+        {
+            String word1=dict[i];
+            String word2=dict[i+1];
+            for(int j=0;j<(int)Math.min(word1.length(),word2.length());j++)
+            {
+                char x=word1.charAt(j);
+                char y=word2.charAt(j);
+                if(x!=y)
+                {
+                    edges.get(x-'a').add(y-'a');
+                    break;
+                }
+            }
+        }
+        boolean visited[]=new boolean[K];
+        ans="";
+        for(int i=0;i<K;i++)
+            if(!visited[i])
+                dfs(i,edges,visited);
+        return ans;
         
     }
 }
