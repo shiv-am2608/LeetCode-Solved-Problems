@@ -27,7 +27,6 @@ class Solution {
                 curr=curr.left;
             }
             curr=st.pop();
-            //curr=curr.right;   
         }
         return arr;
     }
