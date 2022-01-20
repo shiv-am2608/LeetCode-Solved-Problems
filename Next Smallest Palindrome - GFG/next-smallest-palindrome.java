@@ -31,6 +31,7 @@ class GFG {
 // User function Template for Java
 
 class Solution {
+    //add 1 in middle and form pallindrome
     Vector<Integer> case1(int arr[],int n)
     {
         int i,c=1;
@@ -55,6 +56,8 @@ class Solution {
             res.add(1);
         return res;
     }
+    
+    //directly form pallindrome
     Vector<Integer>case2(int arr[],int n)
     {
         Vector<Integer>res=new Vector<Integer>();
@@ -64,6 +67,8 @@ class Solution {
             res.add(arr[j]);
         return res;
     }
+    
+    //deal corner cases where all digits are 9
     Vector<Integer>case3(int n)
     {
         Vector<Integer>res=new Vector<Integer>();
@@ -75,8 +80,11 @@ class Solution {
     }
     Vector<Integer> generateNextPalindrome(int arr[], int n) {
         // code here
+        
+        //Deals with Single Digit
         if(n==1 && arr[0]<9)
             return new Vector<Integer>(Arrays.asList(arr[0]+1));
+            
         int x=(n+1)/2;
         boolean allNine=true;
         for(int j=(n/2)-1;j>=0;j--)
