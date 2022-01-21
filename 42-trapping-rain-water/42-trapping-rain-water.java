@@ -11,12 +11,12 @@ class Solution {
             rightMax=Math.max(height[right],rightMax);
             if(leftMax<rightMax)
             {
-                area+=Math.max(0,leftMax-height[left]);
+                area+=leftMax-height[left];
                 left++;
             }
             else
             {
-                area+=Math.max(0,rightMax-height[right]);
+                area+=rightMax-height[right];
                 right--;
             }
         }
