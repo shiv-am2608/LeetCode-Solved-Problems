@@ -11,6 +11,6 @@ class Solution {
             if (arr[i] == 0)
                 if (--j < arr.length)
                     arr[j] = arr[i];
-    }
+        }
     }
 }
