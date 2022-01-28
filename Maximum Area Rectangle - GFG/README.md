@@ -1,5 +1,5 @@
 # Maximum Area Rectangle
-## Easy 
+##  Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given <strong>N&nbsp;</strong>&nbsp;pairs of rectangles, where each pair denotes the length <strong>L</strong>&nbsp;and breadth <strong>B&nbsp;</strong>of the <strong>i<sup>th</sup></strong><sup>&nbsp;</sup>rectangle. The task is to return the maximum area of the rectangle.</span></p>
 
