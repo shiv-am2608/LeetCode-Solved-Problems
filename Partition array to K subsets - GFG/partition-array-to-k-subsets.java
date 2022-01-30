@@ -56,51 +56,18 @@ class Solution
         return false;
         
     }
-    public boolean isKPartitionPossible(int arr[], int n, int k)
+    public boolean isKPartitionPossible(int a[], int n, int k)
     {
 	// Your code here
-	   // if(k==1 || k>a.length)
-    //         return true;
-    //     int sum=0;
-    //     for(int i:a)
-    //         sum+=i;
-    //     if(sum%k!=0)
-    //         return false;
-    //     Arrays.sort(a);
-    //     boolean visited[]=new boolean[a.length];
-    //     return solve(a,k,a.length-1,sum/k,0,visited);
-    if(n<k)return false;
-Arrays.sort(arr);
-int sum=0;
-if(k==1)
-    return true;
-for(int i:arr)
-    sum+=i;
-int val=sum/k;
-if(sum%k!=0||arr[n-1]>val)
-    return false;
-  
-boolean l[][]=new boolean[n+1][val+1];
-for(int i=0;i<=n;i++){
-    for(int j=0;j<=val;j++){
-        if(i==0)
-            l[i][j]=false;
-       else if(j==0)
-        l[i][j]=true;
-           
-    }
-}
-for(int i=1;i<=n;i++){
-    for(int j=1;j<=val;j++){
-        if(arr[i-1]<=j){
-            l[i][j]=l[i-1][j-arr[i-1]]||l[i-1][j];
-           
-        }
-        else
-            l[i][j]=l[i-1][j];
-    }
-}
-return l[n][val];
-
+	    if(k==1 || k>a.length)
+            return true;
+        int sum=0;
+        for(int i:a)
+            sum+=i;
+        if(sum%k!=0)
+            return false;
+        Arrays.sort(a);
+        boolean visited[]=new boolean[a.length];
+        return solve(a,k,a.length-1,sum/k,0,visited);
     }
 }
