@@ -52,16 +52,16 @@ class Solution
     {
         // your code here
         int num=arr[high];
-        int k=low-1;
+        int k=low;
         for(int i=low;i<high;i++)
         {
             if(arr[i]<arr[high])
             {
-                k++;
                 swap(arr,i,k);
+                k++;
             }
         }
-        swap(arr,k+1,high);
-        return k+1;
+        swap(arr,k,high);
+        return k;
     } 
 }
