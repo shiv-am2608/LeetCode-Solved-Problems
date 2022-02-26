@@ -1,5 +1,5 @@
 # Maximum number of events that can be attended
-## Medium 
+##  Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">There are <strong>N</strong> events in&nbsp;Geek's city. You are given two arrays <strong>start[]</strong> and <strong>end[] </strong>denoting starting and ending day of the events respectively. Event i starts at start[i] and ends at end[i].<br>
 You can attend an event i at any day <strong>d</strong> between start[i] and end[i] (start[i] ≤ d ≤ end[i]). But you can attend <strong>only one event in a day</strong>.<br>
