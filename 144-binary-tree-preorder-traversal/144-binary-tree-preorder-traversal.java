@@ -18,7 +18,7 @@ class Solution {
         Stack<TreeNode>st=new Stack<TreeNode>();
         List<Integer>arr=new LinkedList<Integer>();
         TreeNode curr=root;
-        while(curr!=null || st.size()>0)
+        while(curr!=null || !st.isEmpty())
         {
             while(curr!=null)
             {
