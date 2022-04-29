@@ -73,45 +73,24 @@ class insertion
     */
 class Solution
 {
-    public static Node insert(Node head,Node curr)
-    {
-        Node ptr=head,prev=null;
-        while(ptr!=null && ptr.data<curr.data)
-        {
-            prev=ptr;
-            ptr=ptr.next;
-        }
-        curr.next=ptr;
-        if(prev==null)
-            return curr;
-        prev.next=curr;
-        return head;
-    }
-    public static Node getLast(Node head)
-    {
-        if(head==null)
-            return head;
-        Node ptr=head;
-        while(ptr.next!=null)
-            ptr=ptr.next;
-        return ptr;
-    }
+
     public static Node insertionSort(Node head)
     {
         //code here
-        if(head==null || head.next==null)
-            return head;
-        Node prev=head,curr=head.next;
+       if(head==null || head.next==null)
+                return head;
+        Node dummy=new Node(-1);
+        Node prev=dummy,curr=head;
         while(curr!=null)
         {
             Node next=curr.next;
-            curr.next=null;
-            prev.next=null;
-            head=insert(head,curr);
-            prev=getLast(head);
-            prev.next=next;
+            while(prev.next!=null && prev.next.data<curr.data)
+                prev=prev.next;
+            curr.next=prev.next;
+            prev.next=curr;
+            prev=dummy;
             curr=next;
         }
-        return head;
+        return dummy.next;
     }
 }
