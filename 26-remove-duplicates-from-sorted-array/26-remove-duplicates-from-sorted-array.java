@@ -7,8 +7,7 @@ class Solution {
             while(next<nums.length && nums[curr]==nums[next])
                 next++;
             curr++;
-            count++;
         }
-        return count;
+        return curr;
     }
 }
