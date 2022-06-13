@@ -13,9 +13,7 @@ class Solution {
                     dp[i][j]=dp[i-1][j-1]+lvl.get(j);
                 else
                     dp[i][j]=Math.min(dp[i-1][j-1],dp[i-1][j])+lvl.get(j);
-                // System.out.print(dp[i][j]+" ");
             }
-            // System.out.println();
         }
         int ans=Integer.MAX_VALUE;
         for(int i=0;i<triangle.size();i++)
