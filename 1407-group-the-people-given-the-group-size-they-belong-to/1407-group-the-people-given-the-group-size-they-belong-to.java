@@ -9,13 +9,13 @@ class Solution {
         }
         for(int i=0;i<groupSizes.length;i++)
         {
-            int group = groupSizes[i];
-            temp.get(group).add(i);
-            if(temp.get(group).size()==group)
+            int groupSize = groupSizes[i];
+            temp.get(groupSize).add(i);
+            if(temp.get(groupSize).size()==groupSize)
             {
-                List<Integer>final_list = new ArrayList<Integer>(temp.get(group));
-                ans.add(final_list);
-                temp.get(group).clear();
+                List<Integer>group = new ArrayList<Integer>(temp.get(groupSize));
+                ans.add(group);
+                temp.get(groupSize).clear();
             }
         }
         return ans;
