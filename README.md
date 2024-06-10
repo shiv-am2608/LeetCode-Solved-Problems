@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview!
 # String
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0187-repeated-dna-sequences) |
 | [0344-reverse-string](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0344-reverse-string) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Greedy
@@ -24,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview!
 # Hash Table
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0187-repeated-dna-sequences) |
 | [0523-continuous-subarray-sum](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0523-continuous-subarray-sum) |
 # Math
 |  |
@@ -41,3 +43,19 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1137-height-checker) |
+# Bit Manipulation
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0187-repeated-dna-sequences) |
+# Sliding Window
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0187-repeated-dna-sequences) |
+# Rolling Hash
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0187-repeated-dna-sequences) |
+# Hash Function
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0187-repeated-dna-sequences) |
