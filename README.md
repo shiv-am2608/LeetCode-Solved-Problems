@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0523-continuous-subarray-sum) |
+| [1137-height-checker](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1137-height-checker) |
 # Hash Table
 |  |
 | ------- |
@@ -32,3 +33,11 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0523-continuous-subarray-sum) |
+# Sorting
+|  |
+| ------- |
+| [1137-height-checker](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1137-height-checker) |
+# Counting Sort
+|  |
+| ------- |
+| [1137-height-checker](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1137-height-checker) |
