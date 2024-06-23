@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0523-continuous-subarray-sum) |
 | [1137-height-checker](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1137-height-checker) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 # Hash Table
 |  |
 | ------- |
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0187-repeated-dna-sequences) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 # Rolling Hash
 |  |
 | ------- |
@@ -59,3 +61,19 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0187-repeated-dna-sequences) |
+# Queue
+|  |
+| ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Heap (Priority Queue)
+|  |
+| ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Ordered Set
+|  |
+| ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Monotonic Queue
+|  |
+| ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
