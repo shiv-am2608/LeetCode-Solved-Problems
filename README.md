@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview!
 # Greedy
 |  |
 | ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1285-balance-a-binary-search-tree) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Array
 |  |
@@ -77,3 +78,23 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Divide and Conquer
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1285-balance-a-binary-search-tree) |
+# Tree
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1285-balance-a-binary-search-tree) |
+# Depth-First Search
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1285-balance-a-binary-search-tree) |
+# Binary Search Tree
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1285-balance-a-binary-search-tree) |
+# Binary Tree
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1285-balance-a-binary-search-tree) |
