@@ -98,3 +98,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1285-balance-a-binary-search-tree](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1285-balance-a-binary-search-tree) |
+# Graph
+|  |
+| ------- |
+| [1916-find-center-of-star-graph](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1916-find-center-of-star-graph) |
