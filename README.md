@@ -120,4 +120,12 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2379-maximum-total-importance-of-roads](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2379-maximum-total-importance-of-roads) |
+## Linked List
+|  |
+| ------- |
+| [2299-merge-nodes-in-between-zeros](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2299-merge-nodes-in-between-zeros) |
+## Simulation
+|  |
+| ------- |
+| [2299-merge-nodes-in-between-zeros](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2299-merge-nodes-in-between-zeros) |
 <!---LeetCode Topics End-->
