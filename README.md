@@ -128,4 +128,20 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2299-merge-nodes-in-between-zeros](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2299-merge-nodes-in-between-zeros) |
+## String
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0214-shortest-palindrome) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0214-shortest-palindrome) |
+## String Matching
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0214-shortest-palindrome) |
+## Hash Function
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
