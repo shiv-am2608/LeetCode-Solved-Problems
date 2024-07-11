@@ -132,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0214-shortest-palindrome) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -144,4 +145,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0214-shortest-palindrome) |
+## Stack
+|  |
+| ------- |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 <!---LeetCode Topics End-->
