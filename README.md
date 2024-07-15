@@ -149,4 +149,20 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+## Array
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2306-create-binary-tree-from-descriptions) |
+## Hash Table
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2306-create-binary-tree-from-descriptions) |
+## Tree
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2306-create-binary-tree-from-descriptions) |
+## Binary Tree
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2306-create-binary-tree-from-descriptions) |
 <!---LeetCode Topics End-->
