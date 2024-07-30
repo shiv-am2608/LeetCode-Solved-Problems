@@ -134,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0214-shortest-palindrome](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0214-shortest-palindrome) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -150,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Array
 |  |
 | ------- |
@@ -168,4 +170,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2306-create-binary-tree-from-descriptions](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2306-create-binary-tree-from-descriptions) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 <!---LeetCode Topics End-->
