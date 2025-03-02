@@ -158,11 +158,13 @@ Collection of LeetCode questions to ace the coding interview!
 | [1741-sort-array-by-increasing-frequency](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Hash Table
 |  |
 | ------- |
 | [1741-sort-array-by-increasing-frequency](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Tree
 |  |
 | ------- |
@@ -176,4 +178,8 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+## Two Pointers
+|  |
+| ------- |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 <!---LeetCode Topics End-->
