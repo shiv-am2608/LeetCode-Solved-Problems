@@ -185,4 +185,8 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [2265-partition-array-according-to-given-pivot](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+## Math
+|  |
+| ------- |
+| [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 <!---LeetCode Topics End-->
