@@ -156,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -190,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Math
 |  |
 | ------- |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2649-count-total-number-of-colored-cells](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2649-count-total-number-of-colored-cells) |
 ## Binary Search
