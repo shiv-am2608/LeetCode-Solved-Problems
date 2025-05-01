@@ -107,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Greedy
 |  |
 | ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2379-maximum-total-importance-of-roads](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2379-maximum-total-importance-of-roads) |
 ## Graph
 |  |
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1741-sort-array-by-increasing-frequency](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2379-maximum-total-importance-of-roads](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2379-maximum-total-importance-of-roads) |
 ## Heap (Priority Queue)
 |  |
@@ -159,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2394-count-subarrays-with-score-less-than-k) |
@@ -197,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Binary Search
 |  |
 | ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Counting
@@ -211,4 +215,12 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2394-count-subarrays-with-score-less-than-k) |
+## Queue
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 <!---LeetCode Topics End-->
