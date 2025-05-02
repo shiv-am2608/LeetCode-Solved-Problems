@@ -136,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0214-shortest-palindrome) |
+| [0868-push-dominoes](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0868-push-dominoes) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Rolling Hash
@@ -184,11 +185,13 @@ Collection of LeetCode questions to ace the coding interview!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0868-push-dominoes](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0868-push-dominoes) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 ## Two Pointers
 |  |
 | ------- |
+| [0868-push-dominoes](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/0868-push-dominoes) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Math
