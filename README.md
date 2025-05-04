@@ -159,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -171,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Hash Table
 |  |
 | ------- |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -209,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Counting
 |  |
 | ------- |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Sliding Window
 |  |
