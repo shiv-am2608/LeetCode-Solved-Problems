@@ -130,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Simulation
 |  |
 | ------- |
+| [2048-build-array-from-permutation](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2048-build-array-from-permutation) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2299-merge-nodes-in-between-zeros) |
 ## String
@@ -163,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2048-build-array-from-permutation](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2048-build-array-from-permutation) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/shiv-am2608/LeetCode-Solved-Problems/tree/master/2306-create-binary-tree-from-descriptions) |
